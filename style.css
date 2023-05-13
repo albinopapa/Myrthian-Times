@@ -1,10 +1,16 @@
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        table-layout: fixed;
-      }
-      th, td {
-        border: 1px solid black;
-        height: 100px;
-        text-align: center;
-      }
+table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+}
+th, td {
+      border: 1px solid black;
+      height: 100px;
+      text-align: center;
+}
+th {
+  background-color: #4CAF50; /* Set the background color to green */
+  color: white; /* Set the text color to white */
+  text-align: left; /* Align the text to the left */
+  padding: 8px; /* Add some padding to the cells */
+}
